@@ -10266,6 +10266,177 @@ return jQuery;
  * @preserve
  */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Uses Node, AMD or browser globals to create a module.
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
@@ -10297,13 +10468,13 @@ return jQuery;
   Lightbox.defaults = {
     albumLabel: 'Image %1 of %2',
     alwaysShowNavOnTouchDevices: false,
-    fadeDuration: 600,
+    fadeDuration: 300,
     fitImagesInViewport: true,
-    imageFadeDuration: 600,
+    imageFadeDuration: 300,
     // maxWidth: 800,
     // maxHeight: 600,
-    positionFromTop: 50,
-    resizeDuration: 700,
+    positionFromTop: 5,
+    resizeDuration: 300,
     showImageNumberLabel: true,
     wrapAround: false,
     disableScrolling: false,
