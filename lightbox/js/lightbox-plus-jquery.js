@@ -10548,6 +10548,11 @@ return jQuery;
       bottom: parseInt(this.$image.css('border-bottom-width'), 10),
       left: parseInt(this.$image.css('border-left-width'), 10)
     };
+		//Debut maintenance par xx
+		this.$outerContainer.css('border-radius', 40);
+		this.$container.css('border-radius', 40);
+		this.$image.css('border-radius', 40);
+		//fin maintenance par xx
 
     // Attach event handlers to the newly minted DOM elements
     this.$overlay.hide().on('click', function() {
