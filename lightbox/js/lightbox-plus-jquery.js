@@ -10486,7 +10486,8 @@ return jQuery;
     If the caption data is user submitted or from some other untrusted source, then set this to true
     to prevent xss and other injection attacks.
      */
-    sanitizeTitle: false
+    sanitizeTitle: false,
+		roundCorner: 0
   };
 
   Lightbox.prototype.option = function(options) {
@@ -10549,9 +10550,9 @@ return jQuery;
       left: parseInt(this.$image.css('border-left-width'), 10)
     };
 		//Debut maintenance par xx
-		this.$outerContainer.css('border-radius', 40);
-		this.$container.css('border-radius', 40);
-		this.$image.css('border-radius', 40);
+		this.$outerContainer.css('border-radius', this.options.roundCorner);
+		this.$container.css('border-radius', this.options.roundCorner);
+		this.$image.css('border-radius', this.options.roundCorner);
 		//fin maintenance par xx
 
     // Attach event handlers to the newly minted DOM elements
